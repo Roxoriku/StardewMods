@@ -1,0 +1,16 @@
+{
+    "Name": "Early Bird Gets the Bait",
+    "Author": "Roxoriku",
+    "Version": "0.0.2",
+    "Description": "Allows grazing chickens to find bait. Not unlike how pigs find truffles.",
+    "UniqueID": "Roxoriku.EarlyBirdBait",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+    {
+    "UniqueID": "selph.ExtraAnimalConfig"
+    }
+    ]
+}
