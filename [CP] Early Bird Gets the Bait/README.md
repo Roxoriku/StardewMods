@@ -1,0 +1,1 @@
+**Early Bird Gets the Bait** is a Content Patcher mod that utilizes the additional functionality added by Extra Animal Config to allow chickens (*and hopefully other animals in the future*) dig up bait throughout the day.
