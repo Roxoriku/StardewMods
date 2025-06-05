@@ -1,0 +1,77 @@
+{
+    "Changes":
+    [
+        {
+            "LogName": "Make White Chicken produce bait as additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["White Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bait0":
+                {
+                    "Id": "{{ModId}}.Bait0",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bait0",
+                        "ItemId": "685",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make White Chicken produce second bait as additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["White Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bait1":
+                {
+                    "Id": "{{ModId}}.Bait1",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bait1",
+                        "ItemId": "685",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make White Chicken produce third bait as additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["White Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bait2":
+                {
+                    "Id": "{{ModId}}.Bait2",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bait2",
+                        "ItemId": "685",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make bait HarvestType Dig Up.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "Priority": "Late",
+            "TargetField": ["White Chicken", "AnimalProduceExtensionData"],
+            "Entries":
+            {
+                "(O)685":
+                {"HarvestTool": "DigUp"}
+            }
+        }
+    ]
+}
