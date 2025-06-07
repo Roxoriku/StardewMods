@@ -1,0 +1,57 @@
+{
+    "Changes":
+    [
+        {
+            "LogName": "Make Brown Chicken produce bait as additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["Brown Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bait0":
+                {
+                    "Id": "{{ModId}}.Bait0",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bait0",
+                        "ItemId": "685",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make Brown Chicken produce second bait as additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["Brown Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bait1":
+                {
+                    "Id": "{{ModId}}.Bait1",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bait1",
+                        "ItemId": "685",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make bait HarvestType Dig Up.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "Priority": "Late",
+            "TargetField": ["Brown Chicken", "AnimalProduceExtensionData"],
+            "Entries":
+            {
+                "(O)685":
+                {"HarvestTool": "DigUp"}
+            }
+        }
+    ]
+}

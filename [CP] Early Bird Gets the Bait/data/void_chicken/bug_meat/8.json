@@ -1,0 +1,177 @@
+{
+    "Changes":
+    [
+        {
+            "LogName": "Make Void Chicken produce bug meat additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["Void Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bug_Meat0":
+                {
+                    "Id": "{{ModId}}.Bug_Meat0",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bug_Meat0",
+                        "ItemId": "684",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make Void Chicken produce second bug meat additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["Void Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bug_Meat1":
+                {
+                    "Id": "{{ModId}}.Bug_Meat1",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bug_Meat1",
+                        "ItemId": "684",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make Void Chicken produce third bug meat additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["Void Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bug_Meat2":
+                {
+                    "Id": "{{ModId}}.Bug_Meat2",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bug_Meat2",
+                        "ItemId": "684",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make Void Chicken produce fourth bug meat additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["Void Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bug_Meat3":
+                {
+                    "Id": "{{ModId}}.Bug_Meat3",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bug_Meat3",
+                        "ItemId": "684",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make Void Chicken produce fifth bug meat additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["Void Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bug_Meat4":
+                {
+                    "Id": "{{ModId}}.Bug_Meat4",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bug_Meat4",
+                        "ItemId": "684",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make Void Chicken produce sixth bug meat additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["Void Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bug_Meat5":
+                {
+                    "Id": "{{ModId}}.Bug_Meat5",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bug_Meat5",
+                        "ItemId": "684",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make Void Chicken produce seventh bug meat additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["Void Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bug_Meat6":
+                {
+                    "Id": "{{ModId}}.Bug_Meat6",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bug_Meat6",
+                        "ItemId": "684",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make Void Chicken produce eighth bug meat additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["Void Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bug_Meat7":
+                {
+                    "Id": "{{ModId}}.Bug_Meat7",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bug_Meat7",
+                        "ItemId": "684",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make Bug_Meat HarvestType Dig Up.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "Priority": "Late",
+            "TargetField": ["Void Chicken", "AnimalProduceExtensionData"],
+            "Entries":
+            {
+                "(O)684":
+                {"HarvestTool": "DigUp"}
+            }
+        }
+    ]
+}

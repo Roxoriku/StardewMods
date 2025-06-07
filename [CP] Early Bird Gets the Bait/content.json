@@ -1,22 +1,125 @@
 {
     "Format": "2.7.0",
+    "ConfigSchema":
+    {
+        "White Chicken Bait Type":
+        {
+            "AllowValues": "None, Bug Meat, Bait",
+            "Default": "Bait",
+            "Section": "White Chicken"
+        },
+        "White Chicken max bait per day":
+        {
+            "AllowValues": "1, 2, 3, 4, 5, 6, 7, 8, 9",
+            "Default": 3,
+            "Section": "White Chicken"
+        },
+        "Brown Chicken Bait Type":
+        {
+            "AllowValues": "None, Bug Meat, Bait",
+            "Default": "Bait",
+            "Section": "Brown Chicken"
+        },
+        "Brown Chicken max bait per day":
+        {
+            "AllowValues": "1, 2, 3, 4, 5, 6, 7, 8, 9",
+            "Default": 3,
+            "Section": "Brown Chicken"
+        },
+        "Blue Chicken Bait Type":
+        {
+            "AllowValues": "None, Bug Meat, Bait",
+            "Default": "Bait",
+            "Section": "Blue Chicken"
+        },
+        "Blue Chicken max bait per day":
+        {
+            "AllowValues": "1, 2, 3, 4, 5, 6, 7, 8, 9",
+            "Default": 3,
+            "Section": "Blue Chicken"
+        },
+        "Void Chicken Bait Type":
+        {
+            "AllowValues": "None, Bug Meat, Bait",
+            "Default": "Bait",
+            "Section": "Void Chicken"
+        },
+        "Void Chicken max bait per day":
+        {
+            "AllowValues": "1, 2, 3, 4, 5, 6, 7, 8, 9",
+            "Default": 3,
+            "Section": "Void Chicken"
+        }
+    },
     "Changes":
     [
+    //White Chicken Data
         {
         "Action": "Include",
-        "FromFile": "animals/white_chicken.json"
+        "FromFile": "data/white_chicken/bait/{{White Chicken max bait per day}}.json",
+        "When":
+            {
+            "White Chicken Bait Type": "Bait"
+            }
         },
         {
         "Action": "Include",
-        "FromFile": "animals/brown_chicken.json"
+        "FromFile": "data/white_chicken/bug_meat/{{White Chicken max bait per day}}.json",
+        "When":
+            {
+            "White Chicken Bait Type": "Bug Meat"
+            }
+        },
+    //Brown Chicken Data
+        {
+        "Action": "Include",
+        "FromFile": "data/brown_chicken/bait/{{Brown Chicken max bait per day}}.json",
+        "When":
+            {
+            "Brown Chicken Bait Type": "Bait"
+            }
         },
         {
         "Action": "Include",
-        "FromFile": "animals/blue_chicken.json"
+        "FromFile": "data/brown_chicken/bug_meat/{{Brown Chicken max bait per day}}.json",
+        "When":
+            {
+            "Brown Chicken Bait Type": "Bug Meat"
+            }
+        },
+    //Blue Chicken Data
+        {
+        "Action": "Include",
+        "FromFile": "data/blue_chicken/bait/{{Blue Chicken max bait per day}}.json",
+        "When":
+            {
+            "Blue Chicken Bait Type": "Bait"
+            }
         },
         {
         "Action": "Include",
-        "FromFile": "animals/void_chicken.json"
+        "FromFile": "data/blue_chicken/bug_meat/{{Blue Chicken max bait per day}}.json",
+        "When":
+            {
+            "Blue Chicken Bait Type": "Bug Meat"
+            }
+        },
+    //Void Chicken Data
+        {
+        "Action": "Include",
+        "FromFile": "data/void_chicken/bait/{{Void Chicken max bait per day}}.json",
+        "When":
+            {
+            "Void Chicken Bait Type": "Bait"
+            }
+        },
+        {
+        "Action": "Include",
+        "FromFile": "data/void_chicken/bug_meat/{{Void Chicken max bait per day}}.json",
+        "When":
+            {
+            "Void Chicken Bait Type": "Bug Meat"
+            }
         }
     ]
 }

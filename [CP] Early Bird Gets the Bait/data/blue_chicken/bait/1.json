@@ -1,0 +1,37 @@
+{
+    "Changes":
+    [
+        {
+            "LogName": "Make Blue Chicken produce bait as additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["Blue Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bait0":
+                {
+                    "Id": "{{ModId}}.Bait0",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bait0",
+                        "ItemId": "685",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make bait HarvestType Dig Up.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "Priority": "Late",
+            "TargetField": ["Blue Chicken", "AnimalProduceExtensionData"],
+            "Entries":
+            {
+                "(O)685":
+                {"HarvestTool": "DigUp"}
+            }
+        }
+    ]
+}

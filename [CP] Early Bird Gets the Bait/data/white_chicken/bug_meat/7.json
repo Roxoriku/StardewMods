@@ -1,0 +1,157 @@
+{
+    "Changes":
+    [
+        {
+            "LogName": "Make White Chicken produce bug meat additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["White Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bug_Meat0":
+                {
+                    "Id": "{{ModId}}.Bug_Meat0",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bug_Meat0",
+                        "ItemId": "684",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make White Chicken produce second bug meat additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["White Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bug_Meat1":
+                {
+                    "Id": "{{ModId}}.Bug_Meat1",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bug_Meat1",
+                        "ItemId": "684",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make White Chicken produce third bug meat additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["White Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bug_Meat2":
+                {
+                    "Id": "{{ModId}}.Bug_Meat2",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bug_Meat2",
+                        "ItemId": "684",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make White Chicken produce fourth bug meat additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["White Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bug_Meat3":
+                {
+                    "Id": "{{ModId}}.Bug_Meat3",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bug_Meat3",
+                        "ItemId": "684",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make White Chicken produce fifth bug meat additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["White Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bug_Meat4":
+                {
+                    "Id": "{{ModId}}.Bug_Meat4",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bug_Meat4",
+                        "ItemId": "684",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make White Chicken produce sixth bug meat additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["White Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bug_Meat5":
+                {
+                    "Id": "{{ModId}}.Bug_Meat5",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bug_Meat5",
+                        "ItemId": "684",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make White Chicken produce seventh bug meat additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["White Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bug_Meat6":
+                {
+                    "Id": "{{ModId}}.Bug_Meat6",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bug_Meat6",
+                        "ItemId": "684",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make Bug_Meat HarvestType Dig Up.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "Priority": "Late",
+            "TargetField": ["White Chicken", "AnimalProduceExtensionData"],
+            "Entries":
+            {
+                "(O)684":
+                {"HarvestTool": "DigUp"}
+            }
+        }
+    ]
+}

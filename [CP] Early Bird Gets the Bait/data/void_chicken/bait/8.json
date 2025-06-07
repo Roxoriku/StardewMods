@@ -1,0 +1,177 @@
+{
+    "Changes":
+    [
+        {
+            "LogName": "Make Void Chicken produce bait as additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["Void Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bait0":
+                {
+                    "Id": "{{ModId}}.Bait0",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bait0",
+                        "ItemId": "685",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make Void Chicken produce second bait as additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["Void Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bait1":
+                {
+                    "Id": "{{ModId}}.Bait1",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bait1",
+                        "ItemId": "685",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make Void Chicken produce third bait as additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["Void Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bait2":
+                {
+                    "Id": "{{ModId}}.Bait2",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bait2",
+                        "ItemId": "685",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make Void Chicken produce fourth bait as additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["Void Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bait3":
+                {
+                    "Id": "{{ModId}}.Bait3",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bait3",
+                        "ItemId": "685",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make Void Chicken produce fifth bait as additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["Void Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bait4":
+                {
+                    "Id": "{{ModId}}.Bait4",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bait4",
+                        "ItemId": "685",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make Void Chicken produce sixth bait as additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["Void Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bait5":
+                {
+                    "Id": "{{ModId}}.Bait5",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bait5",
+                        "ItemId": "685",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make Void Chicken produce seventh bait as additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["Void Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bait6":
+                {
+                    "Id": "{{ModId}}.Bait6",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bait6",
+                        "ItemId": "685",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make Void Chicken produce eighth bait as additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["Void Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bait7":
+                {
+                    "Id": "{{ModId}}.Bait7",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bait7",
+                        "ItemId": "685",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make bait HarvestType Dig Up.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "Priority": "Late",
+            "TargetField": ["Void Chicken", "AnimalProduceExtensionData"],
+            "Entries":
+            {
+                "(O)685":
+                {"HarvestTool": "DigUp"}
+            }
+        }
+    ]
+}

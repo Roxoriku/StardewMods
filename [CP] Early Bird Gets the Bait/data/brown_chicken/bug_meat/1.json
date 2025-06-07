@@ -1,0 +1,37 @@
+{
+    "Changes":
+    [
+        {
+            "LogName": "Make Brown Chicken produce bug meat additional item.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["Brown Chicken", "ExtraProduceSpawnList"],
+            "Priority": "Late",
+            "Entries":
+            {
+                "{{ModId}}.Bug_Meat0":
+                {
+                    "Id": "{{ModId}}.Bug_Meat0",
+                    "ProduceItemIds": [
+                        {
+                        "Id": "{{ModId}}.Bug_Meat0",
+                        "ItemId": "684",
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Make Bug_Meat HarvestType Dig Up.",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "Priority": "Late",
+            "TargetField": ["Brown Chicken", "AnimalProduceExtensionData"],
+            "Entries":
+            {
+                "(O)684":
+                {"HarvestTool": "DigUp"}
+            }
+        }
+    ]
+}
