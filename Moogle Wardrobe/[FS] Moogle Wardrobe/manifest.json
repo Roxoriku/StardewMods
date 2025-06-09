@@ -1,0 +1,12 @@
+{
+    "Name": "Moogle Wardrobe",
+    "Author": "Roxoriku",
+    "Version": "0.0.1",
+    "Description": "You look cute, kupo!",
+    "UniqueID": "Roxoriku.MoogleWardrobe",
+    "UpdateKeys": [],
+    "ContentPackFor":
+    {
+        "UniqueID": "PeacefulEnd.FashionSense"
+    }
+}

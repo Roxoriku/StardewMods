@@ -1,0 +1,83 @@
+{
+    "Name": "Moogle Pom",
+    "Format": "7.0.2",
+    "FrontHat":
+    {
+//May be able to integrate with seasonal events or Chocobo Valley Shops.
+        "Item": false,
+        "StartingPosition":
+        {
+            "X": 0,
+            "y": 0
+        },
+        "HeadPosition":
+        {
+            "X": -2,
+            "y": 11
+        },
+        "HatSize":
+        {
+            "Width": 16,
+            "Length": 16
+        }
+    },
+    "RightHat":
+    {
+        "StartingPosition":
+        {
+            "X": 0,
+            "y": 16
+        },
+        "HeadPosition":
+        {
+            "X": 4,
+            "y": 8
+        },
+        "HatSize":
+        {
+            "Width": 16,
+            "Length": 16
+        }
+    },
+    "LeftHat":
+    {
+        "StartingPosition":
+        {
+            "X": 0,
+            "y": 32
+        },
+        "HeadPosition":
+        {
+            "X": -8,
+            "y": 8
+        },
+        "HatSize":
+        {
+            "Width": 16,
+            "Length": 16
+        }
+    },
+    "BackHat":
+    {
+        "DrawOrderOverride":
+            {
+            "Preposition": "After",
+            "AppearanceType": "Hair"
+            },
+        "StartingPosition":
+        {
+            "X": 0,
+            "y": 48
+        },
+        "HeadPosition":
+        {
+            "X": -3,
+            "y": 7
+        },
+        "HatSize":
+        {
+            "Width": 16,
+            "Length": 16
+        }
+    }
+}
