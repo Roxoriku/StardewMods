@@ -19,7 +19,14 @@
         {
             "Width": 16,
             "Length": 16
-        }
+        },
+        "MovementAnimation":
+        [
+            {
+            "Frame": 1,
+            "Duration": 250
+            },
+        ]
     },
     "RightHat":
     {
