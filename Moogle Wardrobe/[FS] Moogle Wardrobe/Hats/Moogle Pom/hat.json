@@ -5,6 +5,20 @@
     {
 //May be able to integrate with seasonal events or Chocobo Valley Shops.
         "Item": false,
+        "ColorMaskLayers":
+        [
+            {
+                "Name": "Pom Color",
+                "DefaultColor": [ 255, 0, 0 ],
+                "Values":
+                [
+                [ 223, 223, 223 ],
+                [ 167, 167, 167 ],
+                [ 115, 115, 115 ]
+                ]
+            }
+
+        ],
         "StartingPosition":
         {
             "X": 0,
@@ -23,13 +37,43 @@
         "MovementAnimation":
         [
             {
-            "Frame": 1,
-            "Duration": 250
+            "Frame": 0,
+            "EndWhenFarmerFrameUpdates": true,
+            "Duration": 125
             },
+            {
+            "Frame": 1,
+            "EndWhenFarmerFrameUpdates": true,
+            "Duration": 125
+            },
+            {
+            "Frame": 0,
+            "EndWhenFarmerFrameUpdates": true,
+            "Duration": 125
+            },
+            {
+            "Frame": 2,
+            "EndWhenFarmerFrameUpdates": true,
+            "Duration": 125
+            }
         ]
     },
     "RightHat":
     {
+        "ColorMaskLayers":
+        [
+            {
+                "Name": "Pom Color",
+                "DefaultColor": [ 255, 0, 0 ],
+                "Values":
+                [
+                [ 223, 223, 223 ],
+                [ 167, 167, 167 ],
+                [ 115, 115, 115 ]
+                ]
+            }
+
+        ],
         "StartingPosition":
         {
             "X": 0,
@@ -44,10 +88,42 @@
         {
             "Width": 16,
             "Length": 16
-        }
+        },
+        "MovementAnimation":
+        [
+            {
+            "Frame": 0,
+            "EndWhenFarmerFrameUpdates": true,
+            "Duration": 125
+            },
+            {
+            "Frame": 1,
+            "EndWhenFarmerFrameUpdates": true,
+            "Duration": 125
+            },
+            {
+            "Frame": 2,
+            "EndWhenFarmerFrameUpdates": true,
+            "Duration": 125
+            }
+        ]
     },
     "LeftHat":
     {
+        "ColorMaskLayers":
+        [
+            {
+                "Name": "Pom Color",
+                "DefaultColor": [ 255, 0, 0 ],
+                "Values":
+                [
+                [ 223, 223, 223 ],
+                [ 167, 167, 167 ],
+                [ 115, 115, 115 ]
+                ]
+            }
+
+        ],
         "StartingPosition":
         {
             "X": 0,
@@ -62,10 +138,42 @@
         {
             "Width": 16,
             "Length": 16
-        }
+        },
+        "MovementAnimation":
+        [
+            {
+            "Frame": 0,
+            "EndWhenFarmerFrameUpdates": true,
+            "Duration": 125
+            },
+            {
+            "Frame": 1,
+            "EndWhenFarmerFrameUpdates": true,
+            "Duration": 125
+            },
+            {
+            "Frame": 2,
+            "EndWhenFarmerFrameUpdates": true,
+            "Duration": 125
+            }
+        ]
     },
     "BackHat":
     {
+        "ColorMaskLayers":
+        [
+            {
+                "Name": "Pom Color",
+                "DefaultColor": [ 255, 0, 0 ],
+                "Values":
+                [
+                [ 223, 223, 223 ],
+                [ 167, 167, 167 ],
+                [ 115, 115, 115 ]
+                ]
+            }
+
+        ],
         "DrawOrderOverride":
             {
             "Preposition": "After",
@@ -85,6 +193,29 @@
         {
             "Width": 16,
             "Length": 16
-        }
+        },
+        "MovementAnimation":
+        [
+            {
+            "Frame": 0,
+            "EndWhenFarmerFrameUpdates": true,
+            "Duration": 125
+            },
+            {
+            "Frame": 1,
+            "EndWhenFarmerFrameUpdates": true,
+            "Duration": 125
+            },
+            {
+            "Frame": 0,
+            "EndWhenFarmerFrameUpdates": true,
+            "Duration": 125
+            },
+            {
+            "Frame": 2,
+            "EndWhenFarmerFrameUpdates": true,
+            "Duration": 125
+            }
+        ]
     }
 }
