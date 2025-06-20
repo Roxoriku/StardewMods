@@ -1,23 +1,15 @@
 {
     "Name": "Moogle Pom",
     "Format": "7.0.2",
-    "FrontHat":
+    "FrontAccessory":
     {
 //May be able to integrate with seasonal events or Chocobo Valley Shops.
         "Item": false,
-        "ColorMaskLayers":
+        "ColorMasks":
         [
-            {
-                "Name": "Pom Color",
-                "DefaultColor": [ 255, 0, 0 ],
-                "Values":
-                [
-                [ 223, 223, 223 ],
-                [ 167, 167, 167 ],
-                [ 115, 115, 115 ]
-                ]
-            }
-
+            [ 223, 223, 223 ],
+            [ 167, 167, 167 ],
+            [ 115, 115, 115 ]
         ],
         "StartingPosition":
         {
@@ -26,10 +18,10 @@
         },
         "HeadPosition":
         {
-            "X": -2,
-            "y": 11
+            "X": 1,
+            "y": 15
         },
-        "HatSize":
+        "AccessorySize":
         {
             "Width": 16,
             "Length": 16
@@ -58,21 +50,13 @@
             }
         ]
     },
-    "RightHat":
+    "RightAccessory":
     {
-        "ColorMaskLayers":
+        "ColorMasks":
         [
-            {
-                "Name": "Pom Color",
-                "DefaultColor": [ 255, 0, 0 ],
-                "Values":
-                [
-                [ 223, 223, 223 ],
-                [ 167, 167, 167 ],
-                [ 115, 115, 115 ]
-                ]
-            }
-
+            [ 223, 223, 223 ],
+            [ 167, 167, 167 ],
+            [ 115, 115, 115 ]
         ],
         "StartingPosition":
         {
@@ -81,10 +65,10 @@
         },
         "HeadPosition":
         {
-            "X": 4,
-            "y": 8
+            "X": 6,
+            "y": 11
         },
-        "HatSize":
+        "AccessorySize":
         {
             "Width": 16,
             "Length": 16
@@ -108,21 +92,13 @@
             }
         ]
     },
-    "LeftHat":
+    "LeftAccessory":
     {
-        "ColorMaskLayers":
+        "ColorMasks":
         [
-            {
-                "Name": "Pom Color",
-                "DefaultColor": [ 255, 0, 0 ],
-                "Values":
-                [
-                [ 223, 223, 223 ],
-                [ 167, 167, 167 ],
-                [ 115, 115, 115 ]
-                ]
-            }
-
+            [ 223, 223, 223 ],
+            [ 167, 167, 167 ],
+            [ 115, 115, 115 ]
         ],
         "StartingPosition":
         {
@@ -131,10 +107,10 @@
         },
         "HeadPosition":
         {
-            "X": -8,
-            "y": 8
+            "X": -6,
+            "y": 11
         },
-        "HatSize":
+        "AccessorySize":
         {
             "Width": 16,
             "Length": 16
@@ -158,21 +134,13 @@
             }
         ]
     },
-    "BackHat":
+    "BackAccessory":
     {
-        "ColorMaskLayers":
+        "ColorMasks":
         [
-            {
-                "Name": "Pom Color",
-                "DefaultColor": [ 255, 0, 0 ],
-                "Values":
-                [
-                [ 223, 223, 223 ],
-                [ 167, 167, 167 ],
-                [ 115, 115, 115 ]
-                ]
-            }
-
+            [ 223, 223, 223 ],
+            [ 167, 167, 167 ],
+            [ 115, 115, 115 ]
         ],
         "DrawOrderOverride":
             {
@@ -186,10 +154,10 @@
         },
         "HeadPosition":
         {
-            "X": -3,
-            "y": 7
+            "X": -2,
+            "y": 8
         },
-        "HatSize":
+        "AccessorySize":
         {
             "Width": 16,
             "Length": 16
